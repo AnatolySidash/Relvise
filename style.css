@@ -270,7 +270,139 @@ body {
 }
 
 
+/* --------------------Statistic---------------------- */
 
+
+.statistic__header {
+    padding: 70px 0;
+}
+
+.header-block {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header-block__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+}
+
+.header-block__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: var(--color-grey);
+    max-width: 511px;
+    margin: 0 auto;
+}
+
+.statistic__block {
+    display: flex;
+    align-items: center;
+}
+
+.statistic__column {
+    flex: 0 1 25%;
+    text-align: center;
+}
+
+.statistic__item {
+    padding: 30px;
+}
+
+.statistic__item > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.statistic__value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    color: var(--color-dark);
+}
+
+.statistic__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: var(--color-grey);
+}
+
+
+/* --------------------Advice---------------------- */
+
+
+.advice__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.advice__column {
+    flex: 0 1 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.advice__item {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.item-advice__content {
+    background-color: var(--color-light);
+    padding: 30px;
+    flex: 1 1 auto;
+}
+
+.advice__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    max-width: 135px;
+    margin-bottom: 15px;
+}
+
+.advice__link {
+    color: var(--color-dark);
+    display: inline-block;
+}
+
+.advice__link:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.advice__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: var(--color-grey);
+    max-width: 180px;
+}
+
+.advice__icon {
+    display: block;
+    padding: 0 0 60% 0;
+}
 
 
 
